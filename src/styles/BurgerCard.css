@@ -1,0 +1,49 @@
+.card {
+  padding: 0;
+  height: 320px;
+  width: 240px;
+  position: relative;
+}
+
+.price-tag {
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5rem 0.75rem;
+  border-bottom-left-radius: 50%;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+}
+
+.veg-mark {
+  display: inline-flex;
+  margin-right: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+.img-wrapper {
+  height: 70%;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.card img {
+  height: 100%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-qty {
+  color: var(--bs-dark) !important;
+}
