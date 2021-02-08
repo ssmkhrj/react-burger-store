@@ -1,3 +1,3 @@
 ## BurgerMania - An Online Burger Store
 
-> Live Demo: react-burger-store.somshekhar.com
+> Live Demo: https://react-burger-store.somshekhar.com/
