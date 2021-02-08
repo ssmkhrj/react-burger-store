@@ -6,7 +6,15 @@ export default class CartItem extends Component {
     const { name, price, qty } = burger;
     return (
       <div className="row Item border-bottom">
-        <div className="col-9 col-sm-5 order-sm-1">{name}</div>
+        <div className="col-9 col-sm-5 order-sm-1 Item-name">
+          <button
+            className="btn btn-sm text-danger m-0 p-0 pe-2"
+            onClick={() => updateQty(-qty, name)}
+          >
+            <i className="fas fa-trash"></i>
+          </button>
+          {name}
+        </div>
         <div className="col-3 col-sm-2 text-end order-sm-4">₹{price * qty}</div>
         <div className="col-3 mt-2 mt-sm-0 col-sm-2 text-start order-sm-2 text-sm-end">
           ₹{price}

@@ -3,6 +3,11 @@
   align-items: center;
 }
 
+.Item-name {
+  display: flex;
+  align-items: center;
+}
+
 .delivery-text {
   font-size: 12px;
 }
