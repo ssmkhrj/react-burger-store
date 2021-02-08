@@ -13,13 +13,13 @@ const burgers = [
   },
   {
     imageURL: "https://foodish-api.herokuapp.com/images/burger/burger3.jpg",
-    name: "Veg Cheese Overload",
+    name: "Cheese Burst",
     isVeg: true,
     price: 125,
   },
   {
     imageURL: "https://foodish-api.herokuapp.com/images/burger/burger4.jpg",
-    name: "Chicken Overload",
+    name: "Chicken Burst",
     isVeg: false,
     price: 200,
   },
@@ -43,13 +43,13 @@ const burgers = [
   },
   {
     imageURL: "https://foodish-api.herokuapp.com/images/burger/burger8.jpg",
-    name: "Fish Tikka Masala",
+    name: "Fish Delight",
     isVeg: false,
     price: 275,
   },
   {
     imageURL: "https://foodish-api.herokuapp.com/images/burger/burger9.jpg",
-    name: "Onion And Tomato",
+    name: "Mushroom XXL",
     isVeg: true,
     price: 50,
   },
@@ -61,7 +61,7 @@ const burgers = [
   },
   {
     imageURL: "https://foodish-api.herokuapp.com/images/burger/burger11.jpg",
-    name: "Double Potato Stuff",
+    name: "Double Potato",
     isVeg: true,
     price: 75,
   },
@@ -73,7 +73,7 @@ const burgers = [
   },
   {
     imageURL: "https://foodish-api.herokuapp.com/images/burger/burger13.jpg",
-    name: "Cheesy Melt",
+    name: "Cheese Melt",
     isVeg: true,
     price: 150,
   },
@@ -85,13 +85,13 @@ const burgers = [
   },
   {
     imageURL: "https://foodish-api.herokuapp.com/images/burger/burger15.jpg",
-    name: "Double Fish Stuff",
+    name: "Fish Tikki",
     isVeg: false,
     price: 200,
   },
   {
     imageURL: "https://foodish-api.herokuapp.com/images/burger/burger16.jpg",
-    name: "Eggie Delight",
+    name: "Egg Delight",
     isVeg: false,
     price: 100,
   },
