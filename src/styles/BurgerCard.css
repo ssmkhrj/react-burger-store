@@ -1,7 +1,7 @@
 .card {
   padding: 0;
   height: 320px;
-  width: 240px;
+  width: 100%;
   position: relative;
 }
 
@@ -21,7 +21,6 @@
 }
 
 .veg-mark {
-  display: inline-flex;
   margin-right: 8px;
   width: 12px;
   height: 12px;
@@ -32,18 +31,9 @@
   height: 70%;
   background-size: cover !important;
   background-position: center !important;
-  background-repeat: no-repeat !important;
-}
-
-.card img {
-  height: 100%;
 }
 
 .btn-container {
   display: flex;
   justify-content: space-between;
-}
-
-.btn-qty {
-  color: var(--bs-dark) !important;
 }

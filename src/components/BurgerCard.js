@@ -6,7 +6,7 @@ export default class BurgerCard extends Component {
     const { burger, updateQty } = this.props;
     const { name, price, isVeg, imageURL, qty } = burger;
     return (
-      <div className="shadow-sm border-4 card m-2 col-sm-4 col-lg-3">
+      <div className="shadow-sm border-4 card">
         <div className="price-tag">₹{price}</div>
         <div
           className="img-wrapper"
@@ -36,7 +36,11 @@ export default class BurgerCard extends Component {
               >
                 <i className="fas fa-caret-down"></i>
               </button>
-              <div type="text" className="btn btn-sm" style={{ width: 35 }}>
+              <div
+                type="text"
+                className="btn btn-sm"
+                style={{ width: 35, cursor: "default" }}
+              >
                 {qty}
               </div>
               <button

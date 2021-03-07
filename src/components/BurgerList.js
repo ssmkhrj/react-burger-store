@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import BurgerCard from "./BurgerCard";
+import "../styles/BurgerList.css";
 
 export default class BurgerList extends Component {
   constructor() {
@@ -21,10 +22,7 @@ export default class BurgerList extends Component {
       b.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     return (
-      <section
-        className="container"
-        style={{ paddingTop: 100, paddingBottom: 100 }}
-      >
+      <section className="burger-list">
         <input
           className="form-control mb-4 mx-auto"
           style={{ maxWidth: 400 }}
@@ -33,7 +31,7 @@ export default class BurgerList extends Component {
           placeholder="Search Burgers"
           onChange={this.handleChange}
         />
-        <div className="row justify-content-center">
+        <div className="burger-container">
           {searchedBurgers.map((b) => (
             <BurgerCard key={b.name} burger={b} updateQty={updateQty} />
           ))}
